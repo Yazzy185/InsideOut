@@ -39,6 +39,8 @@ public class Sliceable : MonoBehaviour
             case State.BusyCutting:
 				var knifeCutGameObject = knifeCutPositions[currentCutStep];
 
+				
+
                 cutSteps[currentCutStep].SetActive(false);
 				currentCutStep += 1;
                 cutSteps[currentCutStep].SetActive(true);
